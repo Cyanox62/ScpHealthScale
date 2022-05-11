@@ -2,15 +2,15 @@
 
 namespace ScpHealthScale
 {
-    public class Plugin : Plugin<Config>
-    {
+	public class Plugin : Plugin<Config>
+	{
 		internal static Plugin singleton;
 
 		private EventHandlers ev;
 
-        public override void OnEnabled()
+		public override void OnEnabled()
 		{
-            base.OnEnabled();
+			base.OnEnabled();
 
 			singleton = this;
 
